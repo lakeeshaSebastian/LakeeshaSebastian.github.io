@@ -71,9 +71,25 @@
     }
 
     .hero {
-      max-width: 1000px;
-      width: 100%;
-    }
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
 
     .hero h1 {
     font-family: 'Nunito', sans-serif;
